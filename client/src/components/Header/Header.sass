@@ -1,0 +1,41 @@
+@import '../../styles/helpers'
+.wrapper
+	padding: 18px 0
+	background: $blue
+	color: #fff
+	position: fixed
+	left: 0
+	right: 0
+	top: 0
+	backface-visibility: hidden
+	z-index: 9999
+
+.justify
+	+flex(row, wrap, space-between, center)
+
+.logo
+	+flex(row, wrap, flex-start, center)
+	font-weight: 500
+	.text
+		font: 18px $roboto
+		margin-left: 10px
+
+.activeLink
+	opacity: 1 !important
+
+.navList
+	+flex(row, wrap, flex-start, flex-start)
+	font-weight: 300
+	font-size: 14px
+	li
+		margin: 0 21px
+		&:last-child
+			margin-right: 0
+	a
+		padding: 10px 0
+		transition: .3s
+		font-size: 16px
+		opacity: .5
+		&:hover
+			color: #FAFBFC
+			opacity: 0.8

@@ -1,0 +1,49 @@
+.wrapper {
+  padding: 18px 0;
+  background: #213B82;
+  color: #fff;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  backface-visibility: hidden;
+  z-index: 9999; }
+
+.justify {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center; }
+
+.logo {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 500; }
+  .logo .text {
+    font: 18px "Roboto", sans-serif;
+    margin-left: 10px; }
+
+.activeLink {
+  opacity: 1 !important; }
+
+.navList {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-weight: 300;
+  font-size: 14px; }
+  .navList li {
+    margin: 0 21px; }
+    .navList li:last-child {
+      margin-right: 0; }
+  .navList a {
+    padding: 10px 0;
+    transition: .3s;
+    font-size: 16px;
+    opacity: .5; }
+    .navList a:hover {
+      color: #FAFBFC;
+      opacity: 0.8; }

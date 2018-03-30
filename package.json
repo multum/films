@@ -1,0 +1,19 @@
+{
+  "name": "films-server",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.11",
+    "multer": "^1.3.0"
+  },
+  "scripts": {
+    "server": "NODE_ENV=production babel-node --presets=es2015 server.js"
+  },
+  "devDependencies": {}
+}

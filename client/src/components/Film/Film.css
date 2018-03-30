@@ -1,0 +1,45 @@
+.wrap span {
+  opacity: .6;
+  font-weight: 100;
+  letter-spacing: .03em; }
+
+.title {
+  font-size: 50px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin-bottom: 20px; }
+
+.release, .format {
+  font-size: 16px;
+  margin: 4px 0; }
+
+.stars {
+  margin-top: 30px; }
+  .stars p {
+    font-size: 30px;
+    margin-bottom: 10px; }
+  .stars li {
+    font-weight: 100;
+    padding: 6px 0;
+    letter-spacing: .8px;
+    position: relative;
+    padding-left: 15px;
+    font-size: 24px; }
+    .stars li:after {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      background: #000000;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      content: '';
+      margin-top: -2.5px; }
+
+.blueCanvas {
+  color: #fff;
+  border-radius: 3px;
+  background: #213B82;
+  display: inline-block;
+  max-width: 100%;
+  padding: 12px 16px; }

@@ -1,0 +1,14 @@
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 100%; }
+
+.row {
+  margin: 0 -15px; }
+
+.smContainer {
+  width: 1007px;
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 100%; }

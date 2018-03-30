@@ -1,0 +1,19 @@
+.wrap {
+  max-height: 400px;
+  overflow: auto; }
+  .wrap:global {
+    animation: fade-in .5s linear; }
+  .wrap li {
+    margin: 2px 4px 2px 0;
+    font-weight: 100;
+    color: #fff;
+    display: inline-block;
+    background: #1367D7;
+    max-width: 100%;
+    padding: 0; }
+    .wrap li a {
+      display: block;
+      padding: 10px 15px; }
+
+.scrollContainer {
+  outline: none; }

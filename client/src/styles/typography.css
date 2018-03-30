@@ -1,0 +1,24 @@
+.h1 {
+  font-size: 60px;
+  color: #222634; }
+
+.h2 {
+  font-size: 50px;
+  color: #222634;
+  letter-spacing: 2px;
+  margin-bottom: 28px;
+  padding: 0 15px; }
+
+.h3 {
+  font-size: 15px;
+  color: #222634;
+  padding: 0 15px; }
+
+.h4 {
+  font-size: 13px;
+  color: #222634; }
+
+.paragraph {
+  font-size: 18px;
+  color: #222634;
+  font-weight: 100; }
