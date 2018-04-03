@@ -8,7 +8,7 @@ const dbConfig = require('./server/db');
 const app = express();
 mongoose.connect(dbConfig.url);
 
-app.listen(3001);
+app.listen(process.env.PORT || 3001);
 app.use(cors({origin: '*'}));
 app.use('/', express.static('./client/build'));
 app.use(bodyParser.urlencoded({extended: true}));
