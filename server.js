@@ -9,15 +9,19 @@ const app = express();
 mongoose.connect(dbConfig.url);
 
 app.listen(process.env.PORT || 3001);
+
+app.set('view engine', 'html');
+app.set('views', __dirname + '/client/build');
+
 app.use(cors({origin: '*'}));
-app.use('/', express.static('./client/build'));
+app.use('/', express.static(__dirname + '/client/build'));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
 const db = mongoose.connection;
 
 app.get('/', function (req, res) {
-  res.render('./client/build/index.html');
+  res.render('index');
 });
 
 db.once('open', () => {
@@ -27,10 +31,3 @@ db.once('open', () => {
     res.status(500).send(err);
   });
 });
-
-
-
-
-
-
-
